@@ -1,0 +1,188 @@
+:root {
+    --color-1 : #F4511E;
+    --bs-body-line-height: 1rem
+}
+/* fonts including */
+@font-face {
+    font-family: "lato ragular";
+    src: url(../fonts/Lato-Regular.ttf);
+}
+/* @font-face {
+    font-family: "lato bold";
+    src: url(../fonts/Lato-Bold.ttf);
+} */
+@font-face {
+    font-family: "montserrat ragular";
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+/* @font-face {
+    font-family: "montserrat bold";
+    src: url(../fonts/Montserrat-Bold.ttf);
+} */
+
+/* media query */
+@media screen and (max-width: 400px) {
+    .col-services {width: 50%;}
+}
+@media screen and (min-width: 700px) {
+    .col-port  {width: 33.33%;}
+}
+@media screen and (min-width: 750px) {
+    .col-price {width: 33.33%;}
+}
+
+/* navbar */
+
+.navbar {
+    background-color: var(--color-1);
+    font-family: "montserrat ragular";
+    letter-spacing: 4px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.navbar-nav {
+    font-size: 13px;
+}
+.nav-link:hover {
+    background-color: white;
+    color: var(--color-1) !important;
+}
+.nav-link {
+    transition: none !important;
+}
+.navbar-toggler {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.navbar-toggler:active {
+    border: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+/* Heading */
+.tittle {
+    background-color: var(--color-1);
+    font-family: "montserrat ragular";
+}
+.main-tittle {
+    font-size: 60px;
+    letter-spacing: 1px;
+}
+.form-control {
+    font-size: 14px !important;
+}
+.input-group .btn {
+    background-color: #ac2723;
+    border-radius: 20px;
+    border: none;
+    font-size: 16px;
+}
+.input-group .btn:hover {
+    background-color: #D9534F;
+    border: none;
+}
+.input-group .btn:active {
+    outline: 2px solid black;
+}
+
+/* Main */
+.contain {
+    font-family: "lato ragular";
+    /* width: 100% !important; */
+}
+.about-tittle {
+    letter-spacing: 1px;
+}
+.paragraph-1  {
+    letter-spacing: 1px;
+}
+.btn {
+    font-size: 18px;
+    border: 1px solid rgba(128, 128, 128, 0.6);
+}
+.btn:hover {
+    background-color: silver;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+.fa-chart-simple , .fa-earth-americas {
+    color: var(--color-1);
+    font-size: 200px;
+}
+#values , #portfolio , #customer_say , #contact{
+    background-color: #F6F6F6;
+}
+.services-icon {
+    color: var(--color-1);
+    font-size: 50px;
+}
+.card-port {
+    border: none;
+    border-radius: none;
+}
+.carousel-inner {
+    overflow: visible;
+}
+.carousel-caption {
+bottom: 0px;
+}
+.carousel {
+    padding-top: 90px !important;
+    padding-bottom: 40px !important;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: var(--color-1);
+}
+.angle {
+    color: var(--color-1);
+    font-weight: bold;
+    font-size: 50px !important;
+}
+.button {
+    width: 15px !important;
+    height: 15px !important;
+    /* border: none !important; */
+    border-radius: 50% !important;
+}
+.heading {
+    background-color: var(--color-1);
+}
+.col-pricing {
+    border: 1px solid var(--color-1);
+}
+.col-pricing:hover {
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+.basic-tittle {
+    background-color: var(--color-1);
+    letter-spacing: 2px;
+}
+.basic-details-1 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+.btn-pricing {
+    background-color: var(--color-1);
+    border-color: var(--color-1);
+}
+.btn-pricing:hover {
+    background-color: white;
+    color: var(--color-1) !important;
+    border-color: var(--color-1);
+}
+.contact-text {
+    font-size: 15px;
+    font-weight: 500;
+}
+.comment-label {
+    font-size: 15px;
+    color: grey;
+}
+.contact-btn {
+    font-size: 14px;
+    border-radius: 3px;
+    border-color: rgba(0, 0, 0, 0.18);
+}
+.contact-btn:hover {
+    background-color: rgba(192, 192, 192, 0.3);
+}
+.fa-angle-up {
+    color: var(--color-1);
+}
